@@ -1,0 +1,6 @@
+{
+  "parent": "primalstage:block/drying_rack",
+  "textures": {
+    "texture": "minecraft:block/stripped_mangrove_log"
+  }
+}

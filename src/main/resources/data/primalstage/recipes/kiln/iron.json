@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:kiln",
+  "input": "minecraft:raw_iron_block",
+  "cookingtime": 1200,
+  "result": "minecraft:iron_block"
+}

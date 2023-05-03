@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:drying",
+  "input": "primalstage:tanned_pelt",
+  "cookingtime": 600,
+  "result": "minecraft:leather"
+}

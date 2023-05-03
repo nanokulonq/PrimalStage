@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:noise_threshold_provider",
+            "default_state": {
+              "Name": "primalstage:twigs_block",
+			  "Properties": {
+			  "model": "0"
+			  }
+            },
+            "high_chance": 0.5,
+            "high_states": [
+              {
+                "Name": "primalstage:twigs_block",
+				"Properties": {
+                  "model": "1"
+                }
+              },
+              {
+                "Name": "primalstage:twigs_block",
+				"Properties": {
+                  "model": "2"
+                }
+              },
+              {
+                "Name": "primalstage:twigs_block",
+				"Properties": {
+                  "model": "3"
+                }
+              },
+              {
+                "Name": "primalstage:twigs_block",
+				"Properties": {
+                  "model": "4"
+                }
+              }
+            ],
+            "low_states": [
+              {
+                "Name": "primalstage:twigs_block",
+				"Properties": {
+                  "model": "1"
+                }
+              },
+              {
+                "Name": "primalstage:twigs_block",
+				"Properties": {
+                  "model": "2"
+                }
+              },
+              {
+                "Name": "primalstage:twigs_block",
+				"Properties": {
+                  "model": "3"
+                }
+              },
+              {
+                "Name": "primalstage:twigs_block",
+				"Properties": {
+                  "model": "4"
+                }
+              }
+            ],
+            "noise": {
+              "amplitudes": [
+                1.0
+              ],
+              "firstOctave": 0
+            },
+            "scale": 0.005,
+            "seed": 2345,
+            "threshold": -0.8
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "tries": 4,
+    "xz_spread": 3,
+    "y_spread": 2
+  }
+}

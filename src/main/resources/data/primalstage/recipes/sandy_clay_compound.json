@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "primalstage:sand_dust"
+    },
+	"B": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "pattern": [
+    "BA",
+    "AB"
+  ],
+  "result": {
+    "item": "primalstage:sandy_clay_compound"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:kiln",
+  "input": "minecraft:sand",
+  "cookingtime": 600,
+  "result": "minecraft:glass"
+}

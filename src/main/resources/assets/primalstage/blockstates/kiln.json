@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "primalstage:block/kiln",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "primalstage:block/kiln"
+    },
+    "facing=south": {
+      "model": "primalstage:block/kiln",
+	  "y": 180
+    },
+    "facing=west": {
+      "model": "primalstage:block/kiln",
+      "y": 270
+    }
+  }
+}

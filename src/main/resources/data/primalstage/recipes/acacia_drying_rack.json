@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "primalstage:acacia_logs"
+    },
+	"B": {
+      "item": "minecraft:acacia_planks"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "A A",
+	"A A"
+  ],
+  "result": {
+    "item": "primalstage:acacia_drying_rack"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "primalstage:block/logs_4",
+  "textures": {
+    "texture": "minecraft:block/stripped_acacia_log"
+  }
+}

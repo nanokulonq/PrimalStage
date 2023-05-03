@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "primalstage:crimson_logs"
+    },
+	"A": {
+      "item": "minecraft:crimson_planks"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "BAB"
+  ],
+  "result": {
+	"count": 6,
+    "item": "primalstage:crimson_lattice"
+  }
+}

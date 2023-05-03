@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "primalstage:bark"
+    },
+	"B": {
+      "item": "primalstage:dried_pelt"
+    },
+	"C": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "BC",
+    "AA"
+  ],
+  "result": {
+    "item": "primalstage:tanned_pelt"
+  }
+}

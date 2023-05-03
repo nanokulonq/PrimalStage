@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "primalstage:block/charcoal_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "primalstage:block/charcoal_log"
+    },
+    "axis=z": {
+      "model": "primalstage:block/charcoal_log_horizontal",
+      "x": 90
+    }
+  }
+}

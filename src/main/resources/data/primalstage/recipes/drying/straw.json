@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:drying",
+  "input": "minecraft:wheat",
+  "cookingtime": 600,
+  "result": "primalstage:straw"
+}

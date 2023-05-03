@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:cutting",
+  "input": "minecraft:mangrove_log",
+  "totalhits": 1,
+  "result": "primalstage:mangrove_logs"
+}

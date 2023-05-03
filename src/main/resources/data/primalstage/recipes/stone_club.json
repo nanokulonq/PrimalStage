@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+	"B": {
+      "item": "primalstage:plant_twine"
+    },
+	"C": {
+      "item": "primalstage:stone_club_head"
+    }
+  },
+  "pattern": [
+    "BC",
+    "A "
+  ],
+  "result": {
+    "item": "primalstage:stone_club"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:cutting",
+  "input": "minecraft:birch_log",
+  "totalhits": 1,
+  "result": "primalstage:birch_logs"
+}

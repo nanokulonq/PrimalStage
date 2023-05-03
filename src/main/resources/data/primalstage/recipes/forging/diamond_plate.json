@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:forging",
+  "input": "minecraft:diamond",
+  "totalhits": 5,
+  "result": "primalstage:diamond_plate"
+}

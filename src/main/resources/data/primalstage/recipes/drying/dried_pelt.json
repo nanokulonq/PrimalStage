@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:drying",
+  "input": "primalstage:salted_pelt",
+  "cookingtime": 600,
+  "result": "primalstage:dried_pelt"
+}

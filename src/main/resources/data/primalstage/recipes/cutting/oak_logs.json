@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:cutting",
+  "input": "minecraft:oak_log",
+  "totalhits": 1,
+  "result": "primalstage:oak_logs"
+}

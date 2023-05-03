@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "model=0": {
+      "model": "primalstage:block/pebble_block_0"
+    },
+	"model=1": {
+      "model": "primalstage:block/pebble_block_1"
+    },
+	"model=2": {
+      "model": "primalstage:block/pebble_block_2"
+    },
+	"model=3": {
+      "model": "primalstage:block/pebble_block_3"
+    },
+	"model=4": {
+      "model": "primalstage:block/pebble_block_4"
+    }
+  }
+}

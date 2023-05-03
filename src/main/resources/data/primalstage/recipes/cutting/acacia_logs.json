@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:cutting",
+  "input": "minecraft:acacia_log",
+  "totalhits": 1,
+  "result": "primalstage:acacia_logs"
+}

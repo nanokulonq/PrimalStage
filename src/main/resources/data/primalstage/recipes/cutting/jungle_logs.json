@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:cutting",
+  "input": "minecraft:jungle_log",
+  "totalhits": 1,
+  "result": "primalstage:jungle_logs"
+}

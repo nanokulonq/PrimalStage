@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "primalstage:crimson_logs"
+    },
+	"B": {
+      "item": "minecraft:crimson_planks"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "A A",
+	"A A"
+  ],
+  "result": {
+    "item": "primalstage:crimson_drying_rack"
+  }
+}

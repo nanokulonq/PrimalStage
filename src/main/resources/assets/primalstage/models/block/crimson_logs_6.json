@@ -1,0 +1,6 @@
+{
+  "parent": "primalstage:block/logs_6",
+  "textures": {
+    "texture": "minecraft:block/stripped_crimson_stem"
+  }
+}

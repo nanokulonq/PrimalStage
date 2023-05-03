@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "primalstage:oak_bark",
+    "primalstage:acacia_bark",
+    "primalstage:spruce_bark",
+    "primalstage:jungle_bark",
+    "primalstage:dark_oak_bark",
+    "primalstage:birch_bark",
+    "primalstage:mangrove_bark"
+  ]
+}

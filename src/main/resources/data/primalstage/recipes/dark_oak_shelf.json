@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "primalstage:dark_oak_logs"
+    },
+	"A": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "A A",
+	"ABA"
+  ],
+  "result": {
+    "item": "primalstage:dark_oak_shelf"
+  }
+}

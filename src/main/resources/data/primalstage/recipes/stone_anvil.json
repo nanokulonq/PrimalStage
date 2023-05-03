@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:stone"
+    },
+	"B": {
+      "tag": "primalstage:logs"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "B B",
+	"B B"
+  ],
+  "result": {
+    "item": "primalstage:stone_anvil"
+  }
+}

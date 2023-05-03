@@ -1,0 +1,6 @@
+{
+  "parent": "primalstage:block/shelf_block",
+  "textures": {
+    "texture": "minecraft:block/stripped_dark_oak_log"
+  }
+}

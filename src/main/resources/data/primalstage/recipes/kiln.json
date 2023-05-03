@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "primalstage:kiln_bricks"
+    }
+  },
+  "pattern": [
+    " A ",
+    "A A",
+	"AAA"
+  ],
+  "result": {
+    "item": "primalstage:kiln"
+  }
+}

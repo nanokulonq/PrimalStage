@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:grill",
+  "input": "minecraft:rabbit",
+  "cookingtime": 600,
+  "result": "minecraft:cooked_rabbit"
+}

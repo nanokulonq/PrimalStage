@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "primalstage:block/salt_block" }
+  }
+}

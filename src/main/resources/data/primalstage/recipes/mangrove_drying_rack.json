@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "primalstage:mangrove_logs"
+    },
+	"B": {
+      "item": "minecraft:mangrove_planks"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "A A",
+	"A A"
+  ],
+  "result": {
+    "item": "primalstage:mangrove_drying_rack"
+  }
+}

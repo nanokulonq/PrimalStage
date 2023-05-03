@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "primalstage:salt"
+    },
+	"B": {
+      "item": "primalstage:skimmed_pelt"
+    }
+  },
+  "pattern": [
+    "BA",
+    "AA"
+  ],
+  "result": {
+    "item": "primalstage:salted_pelt"
+  }
+}

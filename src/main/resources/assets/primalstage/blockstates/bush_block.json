@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "primalstage:block/bush_block"
+    },
+    "age=1": {
+      "model": "primalstage:block/bush_block_grow"
+    }
+  }
+}

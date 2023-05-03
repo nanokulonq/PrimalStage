@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:cutting",
+  "input": "minecraft:warped_stem",
+  "totalhits": 1,
+  "result": "primalstage:warped_logs"
+}

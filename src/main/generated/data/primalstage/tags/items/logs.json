@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "primalstage:oak_logs",
+    "primalstage:acacia_logs",
+    "primalstage:spruce_logs",
+    "primalstage:jungle_logs",
+    "primalstage:dark_oak_logs",
+    "primalstage:birch_logs",
+    "primalstage:mangrove_logs",
+    "primalstage:crimson_logs",
+    "primalstage:warped_logs"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "primalstage:oak_logs"
+    },
+	"A": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "BAB"
+  ],
+  "result": {
+	"count": 6,
+    "item": "primalstage:oak_lattice"
+  }
+}

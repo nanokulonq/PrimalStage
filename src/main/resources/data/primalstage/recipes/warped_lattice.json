@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "primalstage:warped_logs"
+    },
+	"A": {
+      "item": "minecraft:warped_planks"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "BAB"
+  ],
+  "result": {
+	"count": 6,
+    "item": "primalstage:warped_lattice"
+  }
+}

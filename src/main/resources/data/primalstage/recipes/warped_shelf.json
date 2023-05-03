@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "primalstage:warped_logs"
+    },
+	"A": {
+      "item": "minecraft:warped_planks"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "A A",
+	"ABA"
+  ],
+  "result": {
+    "item": "primalstage:warped_shelf"
+  }
+}

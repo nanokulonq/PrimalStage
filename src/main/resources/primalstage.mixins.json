@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.nanokulon.primalstage.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"BlockBreakMixin",
+		"UseOnBlockMixin",
+		"SheepEntityDropsAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

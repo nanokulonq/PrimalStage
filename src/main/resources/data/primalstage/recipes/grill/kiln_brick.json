@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:grill",
+  "input": "primalstage:sandy_clay_compound",
+  "cookingtime": 600,
+  "result": "primalstage:kiln_brick"
+}

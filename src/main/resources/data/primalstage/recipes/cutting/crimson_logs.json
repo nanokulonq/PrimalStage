@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:cutting",
+  "input": "minecraft:crimson_stem",
+  "totalhits": 1,
+  "result": "primalstage:crimson_logs"
+}

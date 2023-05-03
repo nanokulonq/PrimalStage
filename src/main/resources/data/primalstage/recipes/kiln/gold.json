@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:kiln",
+  "input": "minecraft:raw_gold_block",
+  "cookingtime": 1200,
+  "result": "minecraft:gold_block"
+}

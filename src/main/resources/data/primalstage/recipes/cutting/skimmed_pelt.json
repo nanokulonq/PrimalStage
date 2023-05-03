@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:cutting",
+  "input": "primalstage:pelt",
+  "totalhits": 3,
+  "result": "primalstage:skimmed_pelt"
+}

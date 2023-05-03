@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "primalstage:birch_logs"
+    },
+	"A": {
+      "item": "minecraft:birch_planks"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "A A",
+	"ABA"
+  ],
+  "result": {
+    "item": "primalstage:birch_shelf"
+  }
+}

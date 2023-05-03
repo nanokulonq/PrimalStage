@@ -1,0 +1,6 @@
+{
+  "parent": "primalstage:block/lattice_post",
+  "textures": {
+    "texture": "minecraft:block/stripped_crimson_stem"
+  }
+}

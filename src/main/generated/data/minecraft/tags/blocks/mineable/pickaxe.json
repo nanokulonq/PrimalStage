@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "primalstage:pebble_block",
+    "primalstage:primitive_grill",
+    "primalstage:kiln_bricks",
+    "primalstage:kiln",
+    "primalstage:stone_anvil"
+  ]
+}

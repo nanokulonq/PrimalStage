@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:drying",
+  "input": "minecraft:kelp",
+  "cookingtime": 600,
+  "result": "minecraft:dried_kelp"
+}

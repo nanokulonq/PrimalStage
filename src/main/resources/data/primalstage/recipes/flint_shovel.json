@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+	"B": {
+      "item": "primalstage:plant_twine"
+    },
+	"C": {
+      "item": "minecraft:flint"
+    }
+  },
+  "pattern": [
+    "BC",
+    "A "
+  ],
+  "result": {
+    "item": "primalstage:flint_shovel"
+  }
+}

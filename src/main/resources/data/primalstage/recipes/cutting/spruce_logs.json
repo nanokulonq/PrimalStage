@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:cutting",
+  "input": "minecraft:spruce_log",
+  "totalhits": 1,
+  "result": "primalstage:spruce_logs"
+}

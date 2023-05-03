@@ -1,0 +1,6 @@
+{
+  "parent": "primalstage:block/logs_2",
+  "textures": {
+    "texture": "minecraft:block/stripped_mangrove_log"
+  }
+}

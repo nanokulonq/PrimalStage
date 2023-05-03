@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:cobblestone"
+    },
+	"B": {
+      "item": "primalstage:stone_pebble"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "B B",
+	"AAA"
+  ],
+  "result": {
+    "item": "primalstage:primitive_grill"
+  }
+}

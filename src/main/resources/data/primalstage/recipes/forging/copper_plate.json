@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:forging",
+  "input": "minecraft:copper_ingot",
+  "totalhits": 5,
+  "result": "primalstage:copper_plate"
+}

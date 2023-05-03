@@ -1,0 +1,6 @@
+{
+  "type": "primalstage:grill",
+  "input": "minecraft:chicken",
+  "cookingtime": 600,
+  "result": "minecraft:cooked_chicken"
+}

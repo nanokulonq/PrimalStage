@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "primalstage:plant_fiber"
+    }
+  },
+  "pattern": [
+    "## ",
+    "#  "
+  ],
+  "result": {
+    "item": "primalstage:plant_twine"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "logs=1": {
+      "model": "primalstage:block/warped_logs_1"
+    },
+    "logs=2": {
+      "model": "primalstage:block/warped_logs_2"
+    },
+	"logs=3": {
+      "model": "primalstage:block/warped_logs_3"
+    },
+	"logs=4": {
+      "model": "primalstage:block/warped_logs_4"
+    },
+	"logs=5": {
+      "model": "primalstage:block/warped_logs_5"
+    },
+	"logs=6": {
+      "model": "primalstage:block/warped_logs_6"
+    },
+	"logs=7": {
+      "model": "primalstage:block/warped_logs_7"
+    },
+	"logs=8": {
+      "model": "primalstage:block/warped_logs_8"
+    },
+	"logs=9": {
+      "model": "primalstage:block/warped_logs_9"
+    },
+	"logs=10": {
+      "model": "primalstage:block/warped_logs_10"
+    },
+	"logs=11": {
+      "model": "primalstage:block/warped_logs_11"
+    },
+	"logs=12": {
+      "model": "primalstage:block/warped_logs_12"
+    }
+  }
+}
