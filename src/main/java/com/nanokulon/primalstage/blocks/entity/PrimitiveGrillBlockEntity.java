@@ -5,7 +5,7 @@ import com.nanokulon.primalstage.init.ModRecipes;
 import com.nanokulon.primalstage.recipes.GrillRecipe;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Material;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.Inventories;
@@ -58,7 +58,7 @@ public class PrimitiveGrillBlockEntity extends BlockEntity {
     }
 
     public boolean isLit(World world, BlockPos pos){
-        return world.getBlockState(pos.down(1)).getMaterial().equals(Material.FIRE);
+        return world.getBlockState(pos.down(1)).getBlock().equals(Blocks.FIRE);
     }
 
     public Optional<GrillRecipe> getRecipeFor(ItemStack stack) {

@@ -2,13 +2,13 @@ package com.nanokulon.primalstage.mixin;
 
 import com.nanokulon.primalstage.init.ModBlocks;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Material;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.Item;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
@@ -35,7 +35,7 @@ public abstract class BlockBreakMixin extends LivingEntity {
 	)
 	private void blockBreak(BlockState state, CallbackInfoReturnable<Float> cir) {
 		Item heldItem = this.inventory.getMainHandStack().getItem();
-		boolean isWood = state.getMaterial().equals(Material.WOOD) && !state.getBlock().equals(ModBlocks.TWIGS_BLOCK);
+		boolean isWood = state.getSoundGroup().equals(BlockSoundGroup.WOOD) && !state.getBlock().equals(ModBlocks.TWIGS_BLOCK);
 		if(isWood && !(heldItem instanceof AxeItem)){
 			cir.setReturnValue(0.0F);
 		}

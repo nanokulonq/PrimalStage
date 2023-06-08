@@ -16,13 +16,13 @@ import net.minecraft.util.Util;
 public class PrimalStage implements ModInitializer {
 
 	public static final String MOD_ID = "primalstage";
-	public static final ItemGroup ITEM_GROUP = FabricItemGroup.builder(new Identifier(MOD_ID, "primal_group"))
-			.displayName(Text.literal("Primal Stage"))
-			.icon(() -> new ItemStack(ModItems.STONE_PEBBLE))
-			.entries((enabledFeatures, entries) -> {
-				ModItemGroup.entries(entries);
-			})
-			.build();
+//	public static final ItemGroup ITEM_GROUP = FabricItemGroup.builder(new Identifier(MOD_ID, "primal_group"))
+//			.displayName(Text.literal("Primal Stage"))
+//			.icon(() -> new ItemStack(ModItems.STONE_PEBBLE))
+//			.entries((enabledFeatures, entries) -> {
+//				ModItemGroup.entries(entries);
+//			})
+//			.build();
 
 	@Override
 	public void onInitialize() {

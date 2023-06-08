@@ -51,7 +51,7 @@ public class KilnBlock extends BlockWithEntity {
     }
 
     public boolean isLit(World world, BlockPos pos){
-        return world.getBlockState(pos.down(1)).getMaterial().equals(Material.FIRE);
+        return world.getBlockState(pos.down(1)).getBlock().equals(Blocks.FIRE);
     }
 
     @Override
