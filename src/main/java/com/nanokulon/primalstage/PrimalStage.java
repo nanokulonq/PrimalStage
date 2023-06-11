@@ -8,6 +8,10 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.text.Text;
 import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
@@ -16,16 +20,18 @@ import net.minecraft.util.Util;
 public class PrimalStage implements ModInitializer {
 
 	public static final String MOD_ID = "primalstage";
-//	public static final ItemGroup ITEM_GROUP = FabricItemGroup.builder(new Identifier(MOD_ID, "primal_group"))
-//			.displayName(Text.literal("Primal Stage"))
-//			.icon(() -> new ItemStack(ModItems.STONE_PEBBLE))
-//			.entries((enabledFeatures, entries) -> {
-//				ModItemGroup.entries(entries);
-//			})
-//			.build();
+	public static final RegistryKey<ItemGroup> ITEM_GROUP = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(MOD_ID, "primal_group"));
 
 	@Override
 	public void onInitialize() {
+		Registry.register(Registries.ITEM_GROUP, ITEM_GROUP, FabricItemGroup.builder()
+				.icon(() -> new ItemStack(ModItems.STONE_PEBBLE))
+				.displayName(Text.literal("Primal Stage"))
+				.entries((enabledFeatures, entries) -> {
+					ModItemGroup.entries(entries);
+				})
+				.build());
+
 		ModBlocks.init();
 		ModItems.init();
 		ModEvents.init();
