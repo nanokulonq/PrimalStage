@@ -4,6 +4,7 @@ import com.google.common.collect.Maps;
 import com.nanokulon.primalstage.init.*;
 import com.nanokulon.primalstage.mixin.SheepEntityDropsAccessor;
 import com.nanokulon.primalstage.world.ModFeatures;
+import dev.architectury.platform.Mod;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -32,6 +33,7 @@ public class PrimalStage implements ModInitializer {
 				})
 				.build());
 
+		ModConfig.init();
 		ModBlocks.init();
 		ModItems.init();
 		ModEvents.init();
@@ -40,23 +42,25 @@ public class PrimalStage implements ModInitializer {
 		ModRecipes.init();
 		ColorProvider.init();
 
-		SheepEntityDropsAccessor.setDrops(Util.make(Maps.newEnumMap(DyeColor.class), map -> {
-			map.put(DyeColor.WHITE, ModItems.WHITE_WOOL_SCRAP);
-			map.put(DyeColor.ORANGE, ModItems.ORANGE_WOOL_SCRAP);
-			map.put(DyeColor.MAGENTA, ModItems.MAGENTA_WOOL_SCRAP);
-			map.put(DyeColor.LIGHT_BLUE, ModItems.LIGHT_BLUE_WOOL_SCRAP);
-			map.put(DyeColor.YELLOW, ModItems.YELLOW_WOOL_SCRAP);
-			map.put(DyeColor.LIME, ModItems.LIME_WOOL_SCRAP);
-			map.put(DyeColor.PINK, ModItems.PINK_WOOL_SCRAP);
-			map.put(DyeColor.GRAY, ModItems.GRAY_WOOL_SCRAP);
-			map.put(DyeColor.LIGHT_GRAY, ModItems.LIGHT_GRAY_WOOL_SCRAP);
-			map.put(DyeColor.CYAN, ModItems.CYAN_WOOL_SCRAP);
-			map.put(DyeColor.PURPLE, ModItems.PURPLE_WOOL_SCRAP);
-			map.put(DyeColor.BLUE, ModItems.BLUE_WOOL_SCRAP);
-			map.put(DyeColor.BROWN, ModItems.BROWN_WOOL_SCRAP);
-			map.put(DyeColor.GREEN, ModItems.GREEN_WOOL_SCRAP);
-			map.put(DyeColor.RED, ModItems.RED_WOOL_SCRAP);
-			map.put(DyeColor.BLACK, ModItems.BLACK_WOOL_SCRAP);
-		}));
+		if (ModConfig.CONFIG.wool_scrap) {
+			SheepEntityDropsAccessor.setDrops(Util.make(Maps.newEnumMap(DyeColor.class), map -> {
+				map.put(DyeColor.WHITE, ModItems.WHITE_WOOL_SCRAP);
+				map.put(DyeColor.ORANGE, ModItems.ORANGE_WOOL_SCRAP);
+				map.put(DyeColor.MAGENTA, ModItems.MAGENTA_WOOL_SCRAP);
+				map.put(DyeColor.LIGHT_BLUE, ModItems.LIGHT_BLUE_WOOL_SCRAP);
+				map.put(DyeColor.YELLOW, ModItems.YELLOW_WOOL_SCRAP);
+				map.put(DyeColor.LIME, ModItems.LIME_WOOL_SCRAP);
+				map.put(DyeColor.PINK, ModItems.PINK_WOOL_SCRAP);
+				map.put(DyeColor.GRAY, ModItems.GRAY_WOOL_SCRAP);
+				map.put(DyeColor.LIGHT_GRAY, ModItems.LIGHT_GRAY_WOOL_SCRAP);
+				map.put(DyeColor.CYAN, ModItems.CYAN_WOOL_SCRAP);
+				map.put(DyeColor.PURPLE, ModItems.PURPLE_WOOL_SCRAP);
+				map.put(DyeColor.BLUE, ModItems.BLUE_WOOL_SCRAP);
+				map.put(DyeColor.BROWN, ModItems.BROWN_WOOL_SCRAP);
+				map.put(DyeColor.GREEN, ModItems.GREEN_WOOL_SCRAP);
+				map.put(DyeColor.RED, ModItems.RED_WOOL_SCRAP);
+				map.put(DyeColor.BLACK, ModItems.BLACK_WOOL_SCRAP);
+			}));
+		}
 	}
 }
