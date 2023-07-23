@@ -1,5 +1,6 @@
 package com.nanokulon.primalstage;
 
+import com.nanokulon.primalstage.init.ColorProvider;
 import com.nanokulon.primalstage.init.ModBlockEntities;
 import com.nanokulon.primalstage.init.ModBlocks;
 import com.nanokulon.primalstage.render.*;
@@ -12,6 +13,8 @@ public class PrimalStageClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
+        ColorProvider.init();
+
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BUSH_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PRIMITIVE_GRILL, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.KILN, RenderLayer.getCutout());

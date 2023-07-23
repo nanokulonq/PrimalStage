@@ -40,7 +40,6 @@ public class PrimalStage implements ModInitializer {
 		ModBlockEntities.init();
 		ModFeatures.init();
 		ModRecipes.init();
-		ColorProvider.init();
 
 		if (ModConfig.CONFIG.wool_scrap) {
 			SheepEntityDropsAccessor.setDrops(Util.make(Maps.newEnumMap(DyeColor.class), map -> {
