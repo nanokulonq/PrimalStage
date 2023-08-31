@@ -24,6 +24,9 @@
 		"rei_client": [
 			"com.nanokulon.primalstage.integration.rei.ModReiPlugin"
 		],
+		"emi": [
+			"com.nanokulon.primalstage.integration.emi.ModEmiPlugin"
+		],
 		"fabric-datagen": [
 			"com.nanokulon.primalstage.PrimalStageDataGenerator"
 		]

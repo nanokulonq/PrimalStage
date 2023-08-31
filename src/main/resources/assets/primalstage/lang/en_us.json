@@ -112,5 +112,15 @@
   "item.primalstage.pebble.tooltip": "§aFlick it!",
   "item.primalstage.charcoal_log.tooltip": "§aWill persist fire on top of the block",
   "item.primalstage.primitive_grill.tooltip": "§aNeeds fire block to work",
-  "item.primalstage.bark_item.tooltip": "§aObtained by stripping logs"
+  "item.primalstage.bark_item.tooltip": "§aObtained by stripping logs",
+  "primalstage.rei.cutting": "Cutting",
+  "primalstage.rei.drying": "Drying",
+  "primalstage.rei.grill": "Grilling",
+  "primalstage.rei.forging": "Forging",
+  "primalstage.rei.kiln": "Firing",
+  "emi.category.primalstage.cutting_category": "Cutting",
+  "emi.category.primalstage.drying_category": "Drying",
+  "emi.category.primalstage.grill_category": "Grilling",
+  "emi.category.primalstage.forging_category": "Forging",
+  "emi.category.primalstage.kiln_category": "Firing"
 }
