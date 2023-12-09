@@ -2,6 +2,7 @@ package com.nanokulon.primalstage.blocks;
 
 import com.nanokulon.primalstage.blocks.entity.StoneAnvilBlockEntity;
 import com.nanokulon.primalstage.init.ModBlockEntities;
+import com.nanokulon.primalstage.init.ModTags;
 import com.nanokulon.primalstage.items.MalletItem;
 import com.nanokulon.primalstage.recipes.ForgingRecipe;
 import net.minecraft.block.*;
@@ -64,7 +65,7 @@ public class StoneAnvilBlock extends BlockWithEntity {
             }
             return ActionResult.CONSUME;
         }
-        if(hand.equals(Hand.MAIN_HAND) && itemHeld.getItem() instanceof MalletItem){
+        if(hand.equals(Hand.MAIN_HAND) && itemHeld.isIn(ModTags.MALLETS)){
             if(!world.isClient && stoneAnvilBlockEntity.addHit()){
                 itemHeld.damage(1, player, p -> p.sendToolBreakStatus(hand));
                 world.playSound(null, pos, SoundEvents.BLOCK_WOOD_BREAK, SoundCategory.BLOCKS, 1.0f, 0.8f + world.random.nextFloat() * 0.4f);

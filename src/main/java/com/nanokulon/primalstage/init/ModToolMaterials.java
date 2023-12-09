@@ -11,7 +11,7 @@ public enum ModToolMaterials implements ToolMaterial {
     PRIMITIVE(0, 32, 2.0f, 0.0f, 15, () -> {
         return Ingredient.ofItems(ModItems.STONE_PEBBLE.asItem());
     }),
-    FLINT(1, 225, 4.5f, 2.0f, 5, () -> {
+    FLINT(1, 186, 4.2f, 1.0f, 5, () -> {
         return Ingredient.ofItems(Items.FLINT.asItem());
     });
 

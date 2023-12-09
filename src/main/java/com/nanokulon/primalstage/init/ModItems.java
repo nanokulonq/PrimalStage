@@ -56,9 +56,9 @@ public class ModItems {
     // Tools
     public static final Item FIRE_STICKS = new FlintAndSteelItem(new FabricItemSettings().maxDamage(1));
     public static final Item STONE_CLUB = new AxeItem(ModToolMaterials.PRIMITIVE, 5.0f, -3.2f,new Item.Settings());
-    public static final Item FLINT_HATCHET = new AxeItem(ModToolMaterials.FLINT, 5.0f, -3.2f,new Item.Settings());
-    public static final Item FLINT_PICKAXE = new PickaxeItem(ModToolMaterials.FLINT, 2, -3.0f,new Item.Settings());
-    public static final Item FLINT_SHOVEL = new ShovelItem(ModToolMaterials.FLINT, 2, -3.0f,new Item.Settings());
+    public static final Item FLINT_HATCHET = new AxeItem(ModToolMaterials.FLINT, 7.0f, -3.2f,new Item.Settings());
+    public static final Item FLINT_PICKAXE = new PickaxeItem(ModToolMaterials.FLINT, 1, -2.8f,new Item.Settings());
+    public static final Item FLINT_SHOVEL = new ShovelItem(ModToolMaterials.FLINT, 1.5f, -3.0f,new Item.Settings());
     public static final Item FLINT_MALLET = new MalletItem(ModToolMaterials.FLINT, new Item.Settings());
     // Tool Parts
     public static final Item STONE_CLUB_HEAD = new PartItem(new FabricItemSettings());
